@@ -8,10 +8,24 @@
 
 .thumbnail-container {
     margin-bottom: 10px;
+    position: relative;
 }
 .thumbnail {
     width: 100%;
     
+}
+
+.video-time {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 4px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+
 }
 
 .video-info-grid {
@@ -21,7 +35,7 @@
 
 .pfp {
     display: inline-block;
-    width: 40px;
+    width: 36px;
     border-radius: 36px;
 }
 

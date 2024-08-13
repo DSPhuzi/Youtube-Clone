@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/videos.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/side-bar.css">
 </head>
 <body>
 
@@ -22,16 +23,55 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-button">
                 <img class="search-icon" src="header-icons/search.svg" alt="search">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-button">
                 <img class="voice-search-icon" src="header-icons/voice-search-icon.svg" alt="voice-search">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
-            <img class="icon" src="header-icons/upload.svg" alt="">
-            <img class="icon" src="header-icons/youtube-apps.svg" alt="">
-            <img class="icon" src="header-icons/notifications.svg" alt="">
-            <img class="my-channel" src="header-icons/my-channel.jpeg" alt="">
+            <div class="upload-link">
+                <img class="icon" src="header-icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-link">
+                <img class="icon" src="header-icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notification-link">
+                <img class="icon" src="header-icons/notifications.svg" alt="">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="my-channel" src="header-icons/my-pfp.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="side-bar">
+        <div class="side-bar-link">
+            <img src="side-bar-icons/home.svg" alt="">
+            <div class="icon-name">Home</div>
+        </div>
+        <div class="side-bar-link">
+            <img src="side-bar-icons/explore-icon.svg" alt="">
+            <div class="icon-name">Explore</div>
+        </div>
+        <div class="side-bar-link">
+            <img src="side-bar-icons/subscriptions.svg" alt="">
+            <div class="icon-name">Subscriptions</div>
+        </div>
+        <div class="side-bar-link">
+            <img src="side-bar-icons/originals.svg" alt="">
+            <div class="icon-name">Originals</div>
+        </div>
+        <div class="side-bar-link">
+            <img src="side-bar-icons/youtube-music.svg" alt="">
+            <div class="icon-name">YouTube Music</div>
+        </div>
+        <div class="side-bar-link">
+            <img src="side-bar-icons/library.svg" alt="">
+            <div class="icon-name">Library</div>
         </div>
     </div>
 
@@ -39,6 +79,7 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/mkbhd.webp" alt="thumbnail">
+                <div class="video-time">14:20</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -55,6 +96,7 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/dhruw.jpg" alt="thumbnail">
+                <div class="video-time">28:10</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -70,6 +112,7 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/fireship.jpg" alt="thumbnail">
+                <div class="video-time">09:30</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -88,6 +131,7 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/mrbeast.jpg" alt="thumbnail">
+                <div class="video-time">18:20</div>     
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -105,6 +149,7 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/technoblade.jpg" alt="thumbnail">
+                <div class="video-time">02:30:19</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
@@ -121,15 +166,70 @@
         <div class="video-preview">
             <div class="thumbnail-container">
                 <img class="thumbnail" src="thumbnails/wired.jpg" alt="thumbnail">
+                <div class="video-time">11:17</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
                     <img src="logos/wired.jpg" alt="logo" class="pfp">
+                    
                 </div>
                 <div class="video-info">
                     <p class="video-title">Harvard Professor Explains Algorithms in 5 Levels of Difficulty | WIRED</p>
                     <p class="video-creator">WIRED</p>
                     <p class="video-stats">2.7M views &#183; 9 months ago</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/ertugrul.jpg" alt="thumbnail">
+                <div class="video-time">44:54</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img src="logos/ertugrul.jpg" alt="logo" class="pfp">
+                    
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Ertugrul Ghazi Urdu | Episode 23 | Season 4</p>
+                    <p class="video-creator">tabii Urdu</p>
+                    <p class="video-stats">19M views &#183; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/mrwhoestheboss.jpg" alt="thumbnail">
+                <div class="video-time">9:19</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img src="logos/mrwhoestheboss.jpg" alt="logo" class="pfp">    
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How NVIDIA just beat every other tech company</p>
+                    <p class="video-creator">Mrwhoestheboss</p>
+                    <p class="video-stats">1.7M views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thumbnails/fireship2.jpg" alt="thumbnail">
+                <div class="video-time">04:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img src="logos/fireship.jpg" alt="logo" class="pfp">
+                    
+                </div>
+                <div class="video-info">
+                    <p class="video-title">We're on the brink of another world browser war</p>
+                    <p class="video-creator">Fireship</p>
+                    <p class="video-stats">696,829 views  &#183; 18 hours ago </p>
                 </div>
             </div>
         </div>
